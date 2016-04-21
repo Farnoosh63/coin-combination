@@ -15,10 +15,7 @@ public class CoinCombination {
     Integer inputGiven = Integer.parseInt(input);
 
   while(inputGiven > 0){
-    //quarters
-    //return quartersGiven
-    //save in the system how many Qyarters left
-    //update the system with the num of quarters
+
     if (quartersLeft > 0 && inputGiven >= 25){
       quartersGiven++;
       quartersLeft--;
